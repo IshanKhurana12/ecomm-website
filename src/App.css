@@ -1,0 +1,123 @@
+/* Custom CSS */
+.custom-card {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  margin: 20px;
+  overflow: hidden; /* Ensure image does not overflow card */
+  transition: transform 0.3s ease; 
+}
+.custom-card:hover {
+  transform: scale(1.05); /* Scale up the card on hover */
+}
+
+.custom-card img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.custom-card img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.custom-card:hover img {
+  transform: scale(1.1); /* Scale up the image on hover */
+}
+body{
+  scroll-behavior: smooth;
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: aliceblue;
+  transition: background-color 0.3s;
+}
+
+.card-link{
+  color: black;
+  
+}
+
+.card-link:hover{
+  color: black;
+  
+}
+
+
+
+.product {
+  display: flex;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.product img {
+  max-width: 40%; /* Adjust the value as needed */
+    margin-right: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.product-info {
+  padding: 20px;
+}
+
+.product-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.product-price {
+  font-size: 24px;
+  color: #f39c12;
+  margin-bottom: 10px;
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .product {
+    flex-direction: column;
+  }
+
+  .product img {
+    margin-bottom: 20px;
+   
+  }
+}
+
+
+.container{
+  padding: 20px;
+}
